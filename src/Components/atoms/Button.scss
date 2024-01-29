@@ -1,0 +1,38 @@
+@import "../../Variables.scss";
+$button-dark:#111b47;
+$button-light:#ffffff;
+button{
+    transition: background-color  1s ease;
+}
+.button-dark{
+    background-color: $button-dark;
+    color:$button-light;
+    border:2px solid $button-dark;
+    &:hover{
+        background-color: $button-light;
+        color: $button-dark;
+    }
+}
+.button-light{
+    background-color: $button-light;
+    color:$button-dark;
+    border:2px solid $button-dark;
+    &:hover{
+        background-color: $button-dark;
+        color: $button-light;
+        border-color:$button-dark
+    }
+}
+.button-lg{
+    min-width: 190px;
+    font-size: $px16;
+}
+.button-sm{
+    font-size: $px12;
+    min-width: 109px;
+}
+.button-md{
+    font-size:  $px14;
+    min-width: 160px;
+    max-width: 160px;
+}

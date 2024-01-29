@@ -1,0 +1,18 @@
+@import "../../Variables.scss";
+.banner-content-cover{
+    max-width: 540px;
+    padding-top:50vh;
+    @media screen and (max-width:$sm) {
+        padding-top:20vh ;
+       
+    }
+}
+.banner-cover{
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-position: top right;
+    @media screen and (max-width:$sm) {
+        height:100vh ;
+        background-size: contain;
+    }
+}

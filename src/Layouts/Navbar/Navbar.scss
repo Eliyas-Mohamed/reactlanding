@@ -1,0 +1,22 @@
+
+@import "../../Variables.scss";
+.navbar-cover{
+    
+    @media screen and (min-width:$md) {
+        position: absolute;
+        background-color: transparent!important;
+    }
+
+}
+.nav-link{
+    color: #505F98;
+    font-size: $px14;
+    margin-right: 25px;
+    &:last-child{
+        margin-right: 0;
+}
+}
+
+.navbar-collapse{
+    flex-grow:unset
+}

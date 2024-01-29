@@ -1,0 +1,134 @@
+@import "./Variables.scss";
+$primary-color:#091133;
+$secondary-color: #505F98;
+html{
+    font-size: 16px;
+    @media screen and (max-width:$lg) {
+        font-size: 14px;
+    }
+    @media screen and (max-width:$md) {
+        font-size: 10px;
+    }
+
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+ul{
+    list-style: none;}
+a{
+    text-decoration: none;
+}
+//background-colors
+.bg-primaryblue{
+    background-color: $primary-color;
+}
+
+.bg-e7ecff-half{
+    background-color:rgba(231, 236, 255,.5)
+}
+.bg-e7ecff{
+    background-color: #E7ECFF;
+
+}
+//headers
+h1,h3,h5{
+    color: $primary-color;
+    font-weight: 500;
+}
+//paragraph
+p{
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+}
+//text-colors
+
+.text-description{
+    color:$secondary-color
+}
+
+.text-grey{
+    color:#5D6970
+}
+
+.text-939EA4{
+    color: #939EA4;
+}
+// fonts
+.fs-36{
+    font-size:2.25rem
+}
+.fs-16{
+    font-size: 1rem;
+}
+.fs-14{
+    font-size: .875rem;
+}
+.fs-12{
+    font-size: .75rem;
+}
+.fs-50{
+    font-size: 3.125rem;
+}
+
+//margin
+.mt-80{
+    margin-top:80px
+}
+
+//maxwidth
+.mw-sm-50{
+    @media screen and (min-width:$sm) {
+        max-width: 50%;
+    }
+    
+}
+
+//padding
+.py-50{
+    padding:50px 0;
+    @media screen and (max-width:$sm) {
+        padding:20px 0
+    }
+}
+.py-100{
+    padding:100px 0;
+    @media screen and (max-width:$lg) {
+        padding:40px 0
+    }
+}
+.py-200{
+    padding:200px 0;
+    @media screen and (max-width:$sm) {
+        padding:100px 0
+    }
+}
+.pt-200{
+    padding-top:200px;
+    @media screen and (max-width:$sm) {
+        padding-top:100px 0
+    }
+}
+//img
+.img-lg{
+    object-fit: contain;
+    @media screen and (max-width:$sm) {
+        height: 200px;
+        width: 200px;
+    }
+    @media screen and (min-width:$sm) and (max-width:$lg){
+        height: 300px;
+        width: 300px;
+    }
+}
+
+//other
+.brand-text{
+    font-weight: 900;
+    line-height: 38px;
+    font-size: 26px;
+    color:#37447E;
+
+}

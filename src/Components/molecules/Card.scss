@@ -1,0 +1,13 @@
+@import "../../Variables.scss";
+.card-cover{
+    margin-top: 1.25rem;
+    @media screen and (min-width:$lg) {
+        max-width: 256px;
+    }
+}
+.card-image{
+    height: 36px;
+    width: 36px;
+    object-fit: contain;
+    margin-bottom: $px14;
+}
